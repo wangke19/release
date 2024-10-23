@@ -132,6 +132,7 @@ tests:
     env:
       PACKET_OS: rocky_9
     test:
+    - ref: baremetalds-sno-conf
     - ref: baremetalds-sno-rename
     - ref: baremetalds-sno-test
     workflow: baremetalds-sno
